@@ -2,8 +2,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Bell MT', serif;
-    background-color: #fdfd96; /* Pastel yellow */
-    background-image: url('https://www.transparenttextures.com/patterns/grain.png'); /* Grain texture */
+    background-color: #fffacd; /* Light yellow color */
+    background-image: url('https://www.transparenttextures.com/patterns/old-wall.png'); /* Subtle texture */
     background-size: cover;
     display: flex;
     justify-content: center;

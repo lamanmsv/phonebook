@@ -2,8 +2,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Bell MT', serif;
-    background-color: #b0b0b0;
-    background-image: radial-gradient(circle, #d3d3d3, #b0b0b0);
+    background-color: #fdfd96; /* Pastel yellow */
+    background-image: url('https://www.transparenttextures.com/patterns/grain.png'); /* Grain texture */
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -16,20 +16,20 @@ body {
 }
 
 .tape {
-    background-color: #f0e68c;
+    background-color: #ffffff; /* White background for business card look */
     border: 2px solid #808080;
-    padding: 15px 30px;
+    padding: 20px 40px; /* Increased padding for business card size */
     margin: 10px;
     display: inline-block;
     cursor: pointer;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    border-radius: 15px;
+    border-radius: 10px; /* Rounded corners */
     font-size: 1.2em;
-    background-image: url('https://www.transparenttextures.com/patterns/paper.png');
+    background-image: url('https://www.transparenttextures.com/patterns/paper.png'); /* Paper texture */
     background-size: cover;
     transition: background-color 0.3s ease;
 }
 
 .tape:hover {
-    background-color: #ffd700;
+    background-color: #f0f0f0; /* Slightly darker on hover */
 }
